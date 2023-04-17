@@ -1,0 +1,14 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  datasource:
+    url: jdbc:postgresql://ider-database.westeurope.cloudapp.azure.com:5432/h598999
+    username: h598999 
+    password: 1122334455 
+  websocket:
+    enabled: true
+  messaging:
+    default-destination-prefix: /app
+    application-destination-prefixes: /app
